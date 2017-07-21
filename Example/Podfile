@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CDInteractiveTextView_Example' do
+  pod 'CDInteractiveTextView', :path => '../'
+
+  target 'CDInteractiveTextView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
