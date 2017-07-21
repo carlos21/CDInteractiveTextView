@@ -1,0 +1,6 @@
+framework module CDInteractiveTextView {
+  umbrella header "CDInteractiveTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}

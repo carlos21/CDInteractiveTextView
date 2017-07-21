@@ -14,16 +14,29 @@
 
 @implementation CDViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [self setup];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)setup {
+    NSString *text = @"Hello! I'm an awesome custom textview. As you can see, you are totally free to create tappable content and personalize your text in the way you want.";
+    self.textView.text = text;
+    self.textView.interactiveColor = [UIColor redColor];
+    self.textView.interactiveHighlightedColor = [UIColor greenColor];
+    
+    NSRange range = [self.textView.text rangeOfString:@"awesome custom textview"];
+    [self.textView addTapActionWithRange:range withActionBlock:^{
+        NSLog(@"awesome custom textview ctm");
+    }];
+    
+    [self.textView addTapActionWithText:@"you" withActionBlock:^{
+        NSLog(@"tappable content ctm");
+    }];
+    
+    NSInteger height = [self.textView sizeThatFits:CGSizeMake(self.textView.frame.size.width, CGFLOAT_MAX)].height;
+    self.heightConstraint.constant = height;
+    
 }
 
 @end

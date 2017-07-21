@@ -1,0 +1,16 @@
+PODS:
+  - CDInteractiveTextView (0.1.0)
+
+DEPENDENCIES:
+  - CDInteractiveTextView (from `../`)
+
+EXTERNAL SOURCES:
+  CDInteractiveTextView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CDInteractiveTextView: 9f0028651c9cef4b7c56fa15f7a6d7e16b376589
+
+PODFILE CHECKSUM: cfe98148fb22feb9b2a4ceadead7bd316b79b04c
+
+COCOAPODS: 1.2.1

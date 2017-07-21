@@ -7,7 +7,11 @@
 //
 
 @import UIKit;
+#import <CDInteractiveTextView/CDInteractiveTextView.h>
 
 @interface CDViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet CDInteractiveTextView *textView;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *heightConstraint;
 
 @end
