@@ -11,7 +11,7 @@
 @interface  CDInteractiveItem : NSObject
 
 @property (nonatomic) NSRange range;
-@property (nonatomic, copy) void (^tapActionBlock)();
+@property (nonatomic, copy) void (^tapActionBlock)(void);
 
 @end
 

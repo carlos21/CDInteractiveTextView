@@ -13,7 +13,7 @@
 @property (nonatomic, strong) UIColor *interactiveColor;
 @property (nonatomic, strong) UIColor *interactiveHighlightedColor;
 
-- (void)addTapActionWithText:(NSString *)text withActionBlock:(void (^)())actionBlock;
-- (void)addTapActionWithRange:(NSRange)range withActionBlock:(void (^)())actionBlock;
+- (void)addTapActionWithText:(NSString *)text withActionBlock:(void (^)(void))actionBlock;
+- (void)addTapActionWithRange:(NSRange)range withActionBlock:(void (^)(void))actionBlock;
 
 @end

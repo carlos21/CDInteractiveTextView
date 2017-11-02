@@ -140,12 +140,12 @@
 
 #pragma mark - Public
 
-- (void)addTapActionWithText:(NSString *)text withActionBlock:(void (^)())actionBlock {
+- (void)addTapActionWithText:(NSString *)text withActionBlock:(void (^)(void))actionBlock {
     NSRange range = [self.text rangeOfString:text];
     [self addTapActionWithRange:range withActionBlock:actionBlock];
 }
 
-- (void)addTapActionWithRange:(NSRange)range withActionBlock:(void (^)())actionBlock {
+- (void)addTapActionWithRange:(NSRange)range withActionBlock:(void (^)(void))actionBlock {
     if (!self.interactiveItems) {
         self.interactiveItems = [NSMutableArray array];
     }

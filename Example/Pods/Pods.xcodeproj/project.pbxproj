@@ -35,12 +35,12 @@
 /* Begin PBXFileReference section */
 		0AC526D0BD940E7F583CCEC205E3706C /* CDInteractiveTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDInteractiveTextView-prefix.pch"; sourceTree = "<group>"; };
 		0BC1EDA61AA0E1E874E6F4EE7FC9E1EA /* Pods-CDInteractiveTextView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CDInteractiveTextView_Example-dummy.m"; sourceTree = "<group>"; };
-		0C4645BF294AEF6A048D6E12209483EB /* Pods_CDInteractiveTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CDInteractiveTextView_Example.framework; path = "Pods-CDInteractiveTextView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C4645BF294AEF6A048D6E12209483EB /* Pods_CDInteractiveTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDInteractiveTextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16165B79379A703946355F1C638A695E /* CDInteractiveTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDInteractiveTextView.h; sourceTree = "<group>"; };
 		17B404F0E84FF552DFD9E5279857DC6F /* Pods-CDInteractiveTextView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDInteractiveTextView_Example-resources.sh"; sourceTree = "<group>"; };
 		32F407CA1500ED8F9FF7576B671DE589 /* Pods-CDInteractiveTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDInteractiveTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3A1B3D81A54F650312D29413FBF15098 /* Pods-CDInteractiveTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CDInteractiveTextView_Example.modulemap"; sourceTree = "<group>"; };
-		4052F1F557CBF9DA0797717D13264993 /* Pods_CDInteractiveTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CDInteractiveTextView_Tests.framework; path = "Pods-CDInteractiveTextView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1B3D81A54F650312D29413FBF15098 /* Pods-CDInteractiveTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CDInteractiveTextView_Example.modulemap"; sourceTree = "<group>"; };
+		4052F1F557CBF9DA0797717D13264993 /* Pods_CDInteractiveTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDInteractiveTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F746EBEDA7F145B687AA2B3477C7F7B /* CDInteractiveItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CDInteractiveItem.h; sourceTree = "<group>"; };
 		510457D8161809EFF67E009DE57FD6ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5235FF5ED3AE573E650A812C41E15B1F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,23 +48,23 @@
 		5C89DB5CB13C44235B6CDD26C31E9C45 /* CDInteractiveItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDInteractiveItem.m; sourceTree = "<group>"; };
 		5D4F7ABC987432691501A015FA02316A /* CDInteractiveTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDInteractiveTextView-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6A5DF5809E8E6D96F1A95044A4ABEBD5 /* CDInteractiveTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CDInteractiveTextView.modulemap; sourceTree = "<group>"; };
+		6A5DF5809E8E6D96F1A95044A4ABEBD5 /* CDInteractiveTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CDInteractiveTextView.modulemap; sourceTree = "<group>"; };
 		6E0994D7C3004BABB468010E64611DC9 /* Pods-CDInteractiveTextView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDInteractiveTextView_Tests-resources.sh"; sourceTree = "<group>"; };
 		710B63AFFBA5B3E54F5800452B146466 /* Pods-CDInteractiveTextView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDInteractiveTextView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7240FACBF46F2E3684B27A8298E7CC10 /* Pods-CDInteractiveTextView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CDInteractiveTextView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		727F0C8AE3F19B85F72E1EC4ADFC75A8 /* Pods-CDInteractiveTextView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDInteractiveTextView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7B3C70593C46257BEDC236C712C388E3 /* Pods-CDInteractiveTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDInteractiveTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		86A219290D7B020378F534813F0C07FE /* Pods-CDInteractiveTextView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CDInteractiveTextView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A034CE13689B396B24C2E132D9022CDF /* CDInteractiveTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDInteractiveTextView-dummy.m"; sourceTree = "<group>"; };
 		A17EEBF320E7E105BF1D0B4AFDFABE7D /* CDInteractiveTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CDInteractiveTextView.m; sourceTree = "<group>"; };
 		A4EF6C2DF5541EECC045ECE296320E9C /* Pods-CDInteractiveTextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CDInteractiveTextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A8378231DCB98F48B656ECCD618B9F25 /* Pods-CDInteractiveTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDInteractiveTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AED7D1230C6BC9D4EB86E12BC0AE1322 /* Pods-CDInteractiveTextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CDInteractiveTextView_Tests-dummy.m"; sourceTree = "<group>"; };
-		B11F87BC39B743FE5A0525AC067A4DC1 /* CDInteractiveTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CDInteractiveTextView.framework; path = CDInteractiveTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B11F87BC39B743FE5A0525AC067A4DC1 /* CDInteractiveTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CDInteractiveTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B202C4F1F25761EC4D790CF10A3B3C03 /* Pods-CDInteractiveTextView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CDInteractiveTextView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BC37B1930AA3647CFC8D0A751C86344A /* Pods-CDInteractiveTextView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CDInteractiveTextView_Example-umbrella.h"; sourceTree = "<group>"; };
-		BF9FE4AC317EBB7A3D79D398B95BB3E7 /* Pods-CDInteractiveTextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CDInteractiveTextView_Tests.modulemap"; sourceTree = "<group>"; };
+		BF9FE4AC317EBB7A3D79D398B95BB3E7 /* Pods-CDInteractiveTextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CDInteractiveTextView_Tests.modulemap"; sourceTree = "<group>"; };
 		DA58B9E99A40310D92D5551D921A0FC5 /* Pods-CDInteractiveTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CDInteractiveTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E9A22019F53C26CCFEB26ECF5D30AD60 /* Pods-CDInteractiveTextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CDInteractiveTextView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F5C34D7E3D78A369FA360D57020B504B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -153,7 +153,6 @@
 			children = (
 				8F084BF1741AAD5E0E0CD28227311DA8 /* Classes */,
 			);
-			name = CDInteractiveTextView;
 			path = CDInteractiveTextView;
 			sourceTree = "<group>";
 		};
@@ -186,7 +185,6 @@
 				16165B79379A703946355F1C638A695E /* CDInteractiveTextView.h */,
 				A17EEBF320E7E105BF1D0B4AFDFABE7D /* CDInteractiveTextView.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -324,7 +322,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0900;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -462,7 +460,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -470,14 +470,20 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -646,7 +652,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -654,15 +662,21 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",

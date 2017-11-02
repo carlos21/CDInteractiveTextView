@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CDInteractiveTextView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A customized UITextView to introduce tappable links.'
   s.description      = <<-DESC
 A customized UITextView to introduce tappable links. Hehe.
